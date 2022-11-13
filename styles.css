@@ -1,0 +1,116 @@
+                    /* Tag Selectors */
+body{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.2rem;
+  background-color: #202124;
+}
+                    /* General */
+.hidden{
+  visibility: hidden;
+}
+
+                    /*Divs*/
+.mainDiv{
+  display: inline-block;
+  padding: 5% 10%;
+  background-color: #202124;
+}
+.firstDiv{
+  display: inline-block;
+  margin-top: 5%;
+}
+.secondDiv{
+  display: inline-block;
+  margin-top: 5%;
+}
+.eng1DivRight{
+  display: inline-block;
+}
+
+                    /* Labels */
+.succesRateLabel1, .succesRateLabel2, .succesRateLabel3{
+  margin-left: 200px;
+  color: white;
+  text-shadow: -0.5px 0 blue, 0 0.5px blue, 0.5px 0 blue, 0 -0.5px blue;
+}
+.rateLabel{
+  text-align: right;
+}
+.ability-improvement{
+  color: white;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+.reduced-abilities{
+  color: white;
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+.engTitle{
+  color: white;
+  text-shadow: -0.5px 0 blue, 0 0.5px blue, 0.5px 0 blue, 0 -0.5px blue;
+}
+.rateLabelSuccess, .rateLabelFailure{
+  color: white;
+  text-shadow: -0.5px 0 yellow, 0 0.5px yellow, 0.5px 0 yellow, 0 -0.5px yellow;
+}
+
+                    /* Buttons */
+.restartButton {
+  background: #26b8bd;
+  background-image: -webkit-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -moz-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -ms-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: -o-linear-gradient(top, #26b8bd, #a1d4d0);
+  background-image: linear-gradient(to bottom, #26b8bd, #a1d4d0);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #f7f7f7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.restartButton:hover {
+  color: #4936E3;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.engFacetButtonImage{
+  background-color: #2b353f;
+  border-radius: 20px;
+  border: 2px solid #262625;
+  color: #627180;
+  margin: 20% 40%;
+  padding: 10%;
+}
+                    /* Diamonds */
+.dia{
+  border: 2px solid #1655b5;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  margin:3px;
+  opacity: 0.8;
+}
+.dia-red{
+  border: 2px solid #f02c4f;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  margin:3px;
+  opacity: 0.8;
+}
+.filled{
+  background-color: #1655b5;
+}
+.filled-red{
+  background-color: #f02c4f;
+}
