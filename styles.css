@@ -114,3 +114,17 @@ body{
 .filled-red{
   background-color: #f02c4f;
 }
+
+
+                    /* Navigation Bar */
+.navbar-item{
+  padding: 0 3%;
+  width: 170px;
+  text-align: left;
+}
+.brand{
+  padding-left: 3%;
+}
+.navbar-nav{
+  padding: 2% 3% 0;
+}
